@@ -21,10 +21,17 @@ module ALU_Control
 
 );
 
-
+//GREEN SHEET (llega el func) 
+//Type R
 localparam R_TYPE_ADD    = 9'b111_100000;
-
-
+localparam R_TYPE_OR     = 9'b111_100101;
+localparam R_TYPE_SLL    = 9'b111_000000;
+localparam R_TYPE_SRL    = 9'b111_000010;
+localparam R_TYPE_SUB    = 9'b111_100010;
+//Type I
+localparam I_TYPE_LUI    = 9'b110_xxxxxx;//comodines
+localparam I_TYPE_ADDI   = 9'b100_xxxxxx;//comodines
+localparam I_TYPE_ORI    = 9'b101_xxxxxx;//comodines
 
 reg [3:0] alu_control_values_r;
 wire [8:0] selector_w;
@@ -36,6 +43,14 @@ always@(selector_w)begin
 	casex(selector_w)
 	
 		R_TYPE_ADD:    alu_control_values_r = 4'b0011;
+		I_TYPE_ADDI:   alu_control_values_r = 4'b0011;
+		//Resto de instrucciones
+		R_TYPE_OR:     alu_control_values_r = 4'b0110;
+		R_TYPE_SLL:    alu_control_values_r = 4'b0101;
+		R_TYPE_SRL:    alu_control_values_r = 4'b0001;
+		R_TYPE_SUB:    alu_control_values_r = 4'b0000;
+		I_TYPE_LUI:    alu_control_values_r = 4'b0010;
+		I_TYPE_ORI:    alu_control_values_r = 4'b0110;//duda
 
 
 		default: alu_control_values_r = 4'b1001;

@@ -1,0 +1,362 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/IntelQuartus
+vAdder
+Z0 !s110 1605052559
+!i10b 1
+!s100 1j;o^85`T<oRk:5FHI^o^2
+I6h3FV[?Wj0iGMC?[z3zeX3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Escritorio/Arqui/Tarea Quartus
+w1602811252
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Adder.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Adder.v
+Z3 L0 13
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1605052559.000000
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 E;hJ3g>Kb6PzBo[V^hk@E3
+I3RYzZBXnk@3e`6QNQ9gLA2
+R1
+R2
+w1604341669
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/ALU.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/ALU.v
+L0 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/ALU.v|
+!i113 1
+R6
+R7
+n@a@l@u
+vALU_Control
+Z8 !s110 1605052560
+!i10b 1
+!s100 e4:3GV`nN2aWd^5=e?9W51
+IA5l^PLQD[AK64oU>86a^i3
+R1
+R2
+w1605052289
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/ALU_Control.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/ALU_Control.v
+Z9 L0 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/ALU_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/ALU_Control.v|
+!i113 1
+R6
+R7
+n@a@l@u_@control
+vControl
+R8
+!i10b 1
+!s100 WICjUzSjb0g`J62k2E=O91
+IknDVhEXXn8=OT2ANQVKHC0
+R1
+R2
+w1604614822
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Control.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Control.v
+Z10 L0 14
+R4
+r1
+!s85 0
+31
+Z11 !s108 1605052560.000000
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Control.v|
+!i113 1
+R6
+R7
+n@control
+vData_Memory
+R8
+!i10b 1
+!s100 WDZk6NPWNnlKD@]?eP:I_1
+I6D74a9OzPzG5h6[2;K[812
+R1
+R2
+w1602793690
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Data_Memory.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Data_Memory.v
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Data_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Data_Memory.v|
+!i113 1
+R6
+R7
+n@data_@memory
+vDecoder_Register_File
+R8
+!i10b 1
+!s100 38:E_J;;mm291=7mP@S]k3
+I:>c4T0jFKW?Lj]Q[ago:R1
+R1
+R2
+w1602781082
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Decoder_Register_File.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Decoder_Register_File.v
+Z12 L0 12
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Decoder_Register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Decoder_Register_File.v|
+!i113 1
+R6
+R7
+n@decoder_@register_@file
+vMIPS_Processor
+R8
+!i10b 1
+!s100 BLQGHLWeHmRAa:8;]VljZ1
+I]mmS89=3o0FP`8nV=A]O01
+R1
+R2
+w1604696854
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor.v
+L0 28
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor.v|
+!i113 1
+R6
+R7
+n@m@i@p@s_@processor
+vMIPS_Processor_TB
+R8
+!i10b 1
+!s100 eCKk0GKZE7Zn8H=:TFNd]2
+I?gK^6CQ;L1c]0j6aBJTCo3
+R1
+R2
+w1603219938
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor_TB.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor_TB.v
+R9
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/MIPS_Processor_TB.v|
+!i113 1
+R6
+R7
+n@m@i@p@s_@processor_@t@b
+vMultiplexer_2_to_1
+R8
+!i10b 1
+!s100 HPncHh]`T5jT6zKLOZg1>1
+I>fkj6zeXiKC?PmjBVze?o1
+R1
+R2
+w1602782822
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Multiplexer_2_to_1.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Multiplexer_2_to_1.v
+R3
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Multiplexer_2_to_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Multiplexer_2_to_1.v|
+!i113 1
+R6
+R7
+n@multiplexer_2_to_1
+vMux_Register_File
+Z13 !s110 1605052561
+!i10b 1
+!s100 `hV?NjRz@2BacV75jLACR0
+ICi^Y_Yc[=HBlE29AHLYAz3
+R1
+R2
+w1602782502
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Mux_Register_File.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Mux_Register_File.v
+L0 2
+R4
+r1
+!s85 0
+31
+R11
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Mux_Register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Mux_Register_File.v|
+!i113 1
+R6
+R7
+n@mux_@register_@file
+vProgram_Counter
+R13
+!i10b 1
+!s100 L5binL?0ILSYMHYW?ZD3C3
+IJ07oVNVOFhUj61D:BNQz10
+R1
+R2
+w1605052548
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Counter.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Counter.v
+R9
+R4
+r1
+!s85 0
+31
+Z14 !s108 1605052561.000000
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Counter.v|
+!i113 1
+R6
+R7
+n@program_@counter
+vProgram_Memory
+R13
+!i10b 1
+!s100 7j;1e5bWlo8fGk3U]ZmHH1
+IdWN`W<i1H0dYE[jDRL;nN3
+R1
+R2
+w1604346053
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Memory.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Memory.v
+R9
+R4
+r1
+!s85 0
+31
+R14
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Program_Memory.v|
+!i113 1
+R6
+R7
+n@program_@memory
+vRegister
+R13
+!i10b 1
+!s100 O<i:;Rc?d>Yo^X;f`8Z491
+IKiVidWTJXFe`;^j01IPdm3
+R1
+R2
+w1605052218
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Register.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Register.v
+R12
+R4
+r1
+!s85 0
+31
+R14
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Register.v|
+!i113 1
+R6
+R7
+n@register
+vRegister_File
+R13
+!i10b 1
+!s100 T7ULzDHcR^ilnOi;8]BE@2
+IO@o1zI]`IhGKMZQEo<42F0
+R1
+R2
+w1602782624
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Register_File.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Register_File.v
+R9
+R4
+r1
+!s85 0
+31
+R14
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Register_File.v|
+!i113 1
+R6
+R7
+n@register_@file
+vShift_Left_2
+R13
+!i10b 1
+!s100 ;RT0L7R9O]5zW=fc5d60_1
+IIA=O:^<^L2diYmY;O5RD;2
+R1
+R2
+w1602779114
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Shift_Left_2.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Shift_Left_2.v
+R12
+R4
+r1
+!s85 0
+31
+R14
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Shift_Left_2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Shift_Left_2.v|
+!i113 1
+R6
+R7
+n@shift_@left_2
+vSign_Extend
+R13
+!i10b 1
+!s100 2FD`n>VGR<=1o0OUO0Rzz3
+I=A`jz9kmOeTmBlN4DXLeI2
+R1
+R2
+w1602777906
+8D:/Escritorio/Arqui/Tarea Quartus/Sources/Sign_Extend.v
+FD:/Escritorio/Arqui/Tarea Quartus/Sources/Sign_Extend.v
+R10
+R4
+r1
+!s85 0
+31
+R14
+!s107 D:/Escritorio/Arqui/Tarea Quartus/Sources/Sign_Extend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Escritorio/Arqui/Tarea Quartus/Sources/Sign_Extend.v|
+!i113 1
+R6
+R7
+n@sign_@extend
