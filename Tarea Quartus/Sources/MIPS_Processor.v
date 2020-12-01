@@ -260,7 +260,7 @@ Multiplexer_2_to_1
 )
 MUX_PC_PLUS_4_OR_SIEXTN
 (
-	.selector_i(true_wire_beq),
+	.selector_i(true_wire_beq |true_wire_bne),
 	.data_0_i(pc_plus_4_w),
 	.data_1_i(result_Adder_1),
 	
