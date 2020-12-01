@@ -20,11 +20,13 @@
 module ALU 
 (
 	input [3:0] alu_operation_i,
+	input [31:0] rs,//parametro para los branch
 	input [31:0] a_i,//RS
 	input [31:0] b_i,//RT
 	input [4:0] shamt,
-	output reg zero_o,
+	output reg zero_o,//beq(0) bne(1)
 	output reg [31:0] alu_data_o//RD
+	
 );
 
 //declarar operaciones
@@ -34,8 +36,8 @@ localparam LUI = 4'b0010;
 localparam OR  = 4'b0110;
 localparam SLL = 4'b0101;
 localparam SRL = 4'b0001;
+localparam JR  = 4'b0111;
 localparam SUB = 4'b0000;
-
    
    always @ (a_i or b_i or alu_operation_i)
      begin
@@ -53,12 +55,14 @@ localparam SUB = 4'b0000;
 			alu_data_o = b_i >> shamt;
 		  SUB: //sub
 			alu_data_o = a_i - b_i;
+		  JR:
+			alu_data_o = a_i;
 			
 		default:
 			alu_data_o = 0;
 		endcase // case(control)
 		
-		zero_o = (alu_data_o == 0) ? 1'b1 : 1'b0;
+		zero_o = (a_i - b_i) ? 1'b0 : 1'b1;
 		
      end // always @ (A or B or control)
 	  
